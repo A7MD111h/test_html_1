@@ -1,0 +1,26 @@
+/* دزاين */
+.divbb{
+    position: relative;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 80px;
+}
+.text {
+    color: transparent;
+    -webkit-text-stroke: lpx;
+    /* rgba(255, 255, 255, 0.6); */
+}
+.hover-text {
+    position: absolute;
+    inset: O;
+    width:0%;
+    color: #1af7ff;
+    overflow: hidden;
+    border-right: 6px solid #1af7ff;
+    transition: 0.5s ease-in-out;
+}
+div:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 40px #1af7ff) ;
+}

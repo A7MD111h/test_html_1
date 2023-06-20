@@ -1,0 +1,73 @@
+div {
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  /* margin: 100px 50px 100px 50px; */
+  background-color: lightblue;
+}
+.box {
+  
+    width: 300px;
+    height: 100px;
+    padding:40px ;
+    border: 1px solid red;
+    box-sizing: border-box ;
+  }
+  /* *{
+    background-color:seagreen;
+    color: aqua; 
+  } */
+/* 
+.container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: auto;
+  }
+  
+  .overflow-hidden {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  
+  .overflow-visible {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: visible;
+  }
+  
+  .overflow-scroll {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: scroll;
+  }
+  
+  .overflow-x-auto {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    overflow-x: auto;
+  }
+  
+  .overflow-y-auto {
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    overflow-y:auto;
+  }
+   */
+
+  #newstyle{
+    width: 200px;
+    height:200px;
+    border: 2px solid red;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow-x: auto;
+  }
